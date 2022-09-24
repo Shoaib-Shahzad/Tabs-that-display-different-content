@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tab-nav{
+  height: 50px;
+  padding: 0 20px;
+  background-color: black;
+  position: relative;
+  line-height: 50px;
+  letter-spacing: 2px;
+
+}
+.tab-nav a{
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0px 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.tab-nav a:hover{
+background: white;
+color: #000;
+}
+.content{
+  margin-top: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 5px 20px;
+  display: none;
+  border: 2px solid black;
+  font-size: 20px;
+  max-width: 450px;
+  border-radius: 10px;
+}
+.content h2{
+  padding-bottom: 5px;
+  color: red;
+}
+.active{
+  color: #fff;
+  background-color: rgb(173, 173, 173);
+}
+.content a{
+  text-decoration: none;
+}
